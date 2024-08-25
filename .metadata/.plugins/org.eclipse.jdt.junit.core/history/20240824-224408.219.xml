@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestSandboxMapas" project="nTaller2EstructurasEsqueleto" tests="18" started="18" failures="13" errors="2" ignored="0">
+  <testsuite name="uniandes.dpoo.estructuras.tests.TestSandboxMapas" time="0.028" displayname="TestSandboxMapas" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxMapas]">
+    <testcase name="testGetCantidadCadenas" classname="uniandes.dpoo.estructuras.tests.TestSandboxMapas" time="0.011" displayname="testGetCantidadCadenas()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxMapas]/[method:testGetCantidadCadenas()]">
+      <failure>
+        <expected>7</expected>
+        <actual>0</actual>
+        org.opentest4j.AssertionFailedError: La cantidad de cadenas no es correcta ==&gt; expected: &lt;7&gt; but was: &lt;0&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxMapas.testGetCantidadCadenas(TestSandboxMapas.java:53)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testEliminarCadenaConLlaveInexistenteVacio" classname="uniandes.dpoo.estructuras.tests.TestSandboxMapas" time="0.0" displayname="testEliminarCadenaConLlaveInexistenteVacio()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxMapas]/[method:testEliminarCadenaConLlaveInexistenteVacio()]"/>
+    <testcase name="testCompararValores" classname="uniandes.dpoo.estructuras.tests.TestSandboxMapas" time="0.001" displayname="testCompararValores()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxMapas]/[method:testCompararValores()]">
+      <failure>
+        <expected>true</expected>
+        <actual>false</actual>
+        org.opentest4j.AssertionFailedError: No comparó correctamente los arreglos cuando eran iguales ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at uniandes.dpoo.estructuras.tests.TestSandboxMapas.testCompararValores(TestSandboxMapas.java:211)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testEliminarCadenaConValorInexistenteVacio" classname="uniandes.dpoo.estructuras.tests.TestSandboxMapas" time="0.0" displayname="testEliminarCadenaConValorInexistenteVacio()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxMapas]/[method:testEliminarCadenaConValorInexistenteVacio()]"/>
+    <testcase name="testAgregarCadenaVacio" classname="uniandes.dpoo.estructuras.tests.TestSandboxMapas" time="0.001" displayname="testAgregarCadenaVacio()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxMapas]/[method:testAgregarCadenaVacio()]">
+      <failure>
+        <expected>1</expected>
+        <actual>0</actual>
+        org.opentest4j.AssertionFailedError: La cantidad de cadenas no aumentó correctamente ==&gt; expected: &lt;1&gt; but was: &lt;0&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxMapas.testAgregarCadenaVacio(TestSandboxMapas.java:136)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testEliminarCadenaConValorInexistente" classname="uniandes.dpoo.estructuras.tests.TestSandboxMapas" time="0.001" displayname="testEliminarCadenaConValorInexistente()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxMapas]/[method:testEliminarCadenaConValorInexistente()]">
+      <failure>
+        <expected>7</expected>
+        <actual>0</actual>
+        org.opentest4j.AssertionFailedError: La cantidad inicial de cadenas no es correcta ==&gt; expected: &lt;7&gt; but was: &lt;0&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxMapas.testEliminarCadenaConValorInexistente(TestSandboxMapas.java:176)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testVolverMayusculas" classname="uniandes.dpoo.estructuras.tests.TestSandboxMapas" time="0.001" displayname="testVolverMayusculas()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxMapas]/[method:testVolverMayusculas()]">
+      <error>java.lang.NullPointerException: Cannot invoke "java.util.List.get(int)" because "copia" is null
+	at uniandes.dpoo.estructuras.tests.TestSandboxMapas.testVolverMayusculas(TestSandboxMapas.java:204)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+</error>
+    </testcase>
+    <testcase name="testEliminarCadenaConLlave" classname="uniandes.dpoo.estructuras.tests.TestSandboxMapas" time="0.0" displayname="testEliminarCadenaConLlave()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxMapas]/[method:testEliminarCadenaConLlave()]">
+      <failure>
+        <expected>7</expected>
+        <actual>0</actual>
+        org.opentest4j.AssertionFailedError: La cantidad inicial de cadenas no es correcta ==&gt; expected: &lt;7&gt; but was: &lt;0&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxMapas.testEliminarCadenaConLlave(TestSandboxMapas.java:145)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testEliminarCadenaConValor" classname="uniandes.dpoo.estructuras.tests.TestSandboxMapas" time="0.0" displayname="testEliminarCadenaConValor()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxMapas]/[method:testEliminarCadenaConValor()]">
+      <failure>
+        <expected>7</expected>
+        <actual>0</actual>
+        org.opentest4j.AssertionFailedError: La cantidad inicial de cadenas no es correcta ==&gt; expected: &lt;7&gt; but was: &lt;0&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxMapas.testEliminarCadenaConValor(TestSandboxMapas.java:168)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testGetPrimera" classname="uniandes.dpoo.estructuras.tests.TestSandboxMapas" time="0.001" displayname="testGetPrimera()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxMapas]/[method:testGetPrimera()]">
+      <failure>
+        <expected>BB</expected>
+        <actual>null</actual>
+        org.opentest4j.AssertionFailedError: El primer elemento retornado no es el correcto ==&gt; expected: &lt;BB&gt; but was: &lt;null&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1156)
+	at uniandes.dpoo.estructuras.tests.TestSandboxMapas.testGetPrimera(TestSandboxMapas.java:120)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testGetValoresComoLista" classname="uniandes.dpoo.estructuras.tests.TestSandboxMapas" time="0.001" displayname="testGetValoresComoLista()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxMapas]/[method:testGetValoresComoLista()]">
+      <failure>
+        <expected>7</expected>
+        <actual>0</actual>
+        org.opentest4j.AssertionFailedError: La lista retornada no tiene la cantidad de elementos esperados ==&gt; expected: &lt;7&gt; but was: &lt;0&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxMapas.testGetValoresComoLista(TestSandboxMapas.java:92)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testReiniciarConjuntoCadenas" classname="uniandes.dpoo.estructuras.tests.TestSandboxMapas" time="0.0" displayname="testReiniciarConjuntoCadenas()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxMapas]/[method:testReiniciarConjuntoCadenas()]">
+      <failure>
+        <expected>8</expected>
+        <actual>0</actual>
+        org.opentest4j.AssertionFailedError: La nueva cantidad de cadenas no es la correcta ==&gt; expected: &lt;8&gt; but was: &lt;0&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxMapas.testReiniciarConjuntoCadenas(TestSandboxMapas.java:193)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testGetLlavesVacia" classname="uniandes.dpoo.estructuras.tests.TestSandboxMapas" time="0.0" displayname="testGetLlavesVacia()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxMapas]/[method:testGetLlavesVacia()]"/>
+    <testcase name="testGetLlaves" classname="uniandes.dpoo.estructuras.tests.TestSandboxMapas" time="0.001" displayname="testGetLlaves()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxMapas]/[method:testGetLlaves()]">
+      <failure>
+        <expected>7</expected>
+        <actual>0</actual>
+        org.opentest4j.AssertionFailedError: La colección retornada no tiene la cantidad de elementos esperados ==&gt; expected: &lt;7&gt; but was: &lt;0&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxMapas.testGetLlaves(TestSandboxMapas.java:69)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testGetCantidadCadenasDiferentes" classname="uniandes.dpoo.estructuras.tests.TestSandboxMapas" time="0.0" displayname="testGetCantidadCadenasDiferentes()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxMapas]/[method:testGetCantidadCadenasDiferentes()]">
+      <failure>
+        <expected>7</expected>
+        <actual>0</actual>
+        org.opentest4j.AssertionFailedError: La cantidad de cadenas no es correcta ==&gt; expected: &lt;7&gt; but was: &lt;0&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxMapas.testGetCantidadCadenasDiferentes(TestSandboxMapas.java:60)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testGetUltima" classname="uniandes.dpoo.estructuras.tests.TestSandboxMapas" time="0.0" displayname="testGetUltima()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxMapas]/[method:testGetUltima()]">
+      <failure>
+        <expected>ee</expected>
+        <actual>null</actual>
+        org.opentest4j.AssertionFailedError: El último elemento retornado no es el correcto ==&gt; expected: &lt;ee&gt; but was: &lt;null&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1156)
+	at uniandes.dpoo.estructuras.tests.TestSandboxMapas.testGetUltima(TestSandboxMapas.java:127)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testGetLlavesComoListaInvertida" classname="uniandes.dpoo.estructuras.tests.TestSandboxMapas" time="0.001" displayname="testGetLlavesComoListaInvertida()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxMapas]/[method:testGetLlavesComoListaInvertida()]">
+      <error>java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "copia" is null
+	at uniandes.dpoo.estructuras.tests.TestSandboxMapas.testGetLlavesComoListaInvertida(TestSandboxMapas.java:107)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+</error>
+    </testcase>
+    <testcase name="testEliminarCadenaConLlaveInexistente" classname="uniandes.dpoo.estructuras.tests.TestSandboxMapas" time="0.0" displayname="testEliminarCadenaConLlaveInexistente()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxMapas]/[method:testEliminarCadenaConLlaveInexistente()]">
+      <failure>
+        <expected>7</expected>
+        <actual>0</actual>
+        org.opentest4j.AssertionFailedError: La cantidad inicial de cadenas no es correcta ==&gt; expected: &lt;7&gt; but was: &lt;0&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxMapas.testEliminarCadenaConLlaveInexistente(TestSandboxMapas.java:153)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+  </testsuite>
+</testrun>

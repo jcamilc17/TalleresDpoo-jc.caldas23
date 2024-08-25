@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestSandboxListas" project="nTaller2EstructurasEsqueleto" tests="50" started="50" failures="39" errors="1" ignored="0">
+  <testsuite name="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.049" displayname="TestSandboxListas" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]">
+    <testcase name="testContarEnterosRepetidos" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.014" displayname="testContarEnterosRepetidos()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testContarEnterosRepetidos()]">
+      <failure>
+        <expected>4</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: No contó correctamente la cantidad de enteros que están repetidos ==&gt; expected: &lt;4&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testContarEnterosRepetidos(TestSandboxListas.java:560)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testGetCopiaEnterosVacia" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.0" displayname="testGetCopiaEnterosVacia()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testGetCopiaEnterosVacia()]"/>
+    <testcase name="testGetCopiaEnterosComoArreglosVacia" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.0" displayname="testGetCopiaEnterosComoArreglosVacia()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testGetCopiaEnterosComoArreglosVacia()]"/>
+    <testcase name="testGetCantidadCadenas" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.001" displayname="testGetCantidadCadenas()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testGetCantidadCadenas()]">
+      <failure>
+        <expected>9</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La cantidad de cadenas no es correcta ==&gt; expected: &lt;9&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testGetCantidadCadenas(TestSandboxListas.java:70)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testOrganizarCadenas" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.0" displayname="testOrganizarCadenas()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testOrganizarCadenas()]"/>
+    <testcase name="testAgregarCadena" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.001" displayname="testAgregarCadena()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testAgregarCadena()]">
+      <failure>
+        <expected>9</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La cantidad inicial de cadenas no es correcta ==&gt; expected: &lt;9&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testAgregarCadena(TestSandboxListas.java:173)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testInsertarEnteroInicioVacio" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.001" displayname="testInsertarEnteroInicioVacio()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testInsertarEnteroInicioVacio()]">
+      <failure>
+        <expected>1</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La cantidad de enteros no aumentó correctamente ==&gt; expected: &lt;1&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testInsertarEnteroInicioVacio(TestSandboxListas.java:324)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testAgregarEntero" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.001" displayname="testAgregarEntero()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testAgregarEntero()]">
+      <failure>
+        <expected>19</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La cantidad inicial de enteros no es correcta ==&gt; expected: &lt;19&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testAgregarEntero(TestSandboxListas.java:149)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testAgregarEnteroVacio" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.001" displayname="testAgregarEnteroVacio()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testAgregarEnteroVacio()]">
+      <failure>
+        <expected>1</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La cantidad de enteros no aumentó correctamente ==&gt; expected: &lt;1&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testAgregarEnteroVacio(TestSandboxListas.java:164)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testContarEnteroVacio" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.001" displayname="testContarEnteroVacio()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testContarEnteroVacio()]">
+      <failure>
+        <expected>0</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: No contó correctamente el entero ==&gt; expected: &lt;0&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testContarEnteroVacio(TestSandboxListas.java:484)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testInsertarEnteroAfueraDespues" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.001" displayname="testInsertarEnteroAfueraDespues()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testInsertarEnteroAfueraDespues()]">
+      <failure>
+        <expected>20</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La cantidad de enteros no aumentó correctamente ==&gt; expected: &lt;20&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testInsertarEnteroAfueraDespues(TestSandboxListas.java:351)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testInsertarEnteroAfueraAntes" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.0" displayname="testInsertarEnteroAfueraAntes()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testInsertarEnteroAfueraAntes()]">
+      <failure>
+        <expected>20</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La cantidad de enteros no aumentó correctamente ==&gt; expected: &lt;20&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testInsertarEnteroAfueraAntes(TestSandboxListas.java:367)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testReiniciarArregloCadenas" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.001" displayname="testReiniciarArregloCadenas()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testReiniciarArregloCadenas()]">
+      <failure>
+        <expected>5</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La nueva cantidad de cadenas no es la correcta ==&gt; expected: &lt;5&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testReiniciarArregloCadenas(TestSandboxListas.java:438)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testVolverPositivos" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.001" displayname="testVolverPositivos()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testVolverPositivos()]">
+      <error>java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:385)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testVolverPositivos(TestSandboxListas.java:457)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+</error>
+    </testcase>
+    <testcase name="testEliminarCadenaInexistenteVacio" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.001" displayname="testEliminarCadenaInexistenteVacio()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testEliminarCadenaInexistenteVacio()]">
+      <failure>
+        <expected>0</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La cantidad de cadenas debería seguir siendo la misma ==&gt; expected: &lt;0&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testEliminarCadenaInexistenteVacio(TestSandboxListas.java:253)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testOrganizarEnterosVacio" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.0" displayname="testOrganizarEnterosVacio()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testOrganizarEnterosVacio()]"/>
+    <testcase name="testCompararArregloEnterosDiferentes" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.001" displayname="testCompararArregloEnterosDiferentes()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testCompararArregloEnterosDiferentes()]"/>
+    <testcase name="testAgregarCadenaVacio" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.0" displayname="testAgregarCadenaVacio()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testAgregarCadenaVacio()]">
+      <failure>
+        <expected>1</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La cantidad de cadenas no aumentó correctamente ==&gt; expected: &lt;1&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testAgregarCadenaVacio(TestSandboxListas.java:188)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testGetCopiaEnteros" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.0" displayname="testGetCopiaEnteros()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testGetCopiaEnteros()]">
+      <failure>
+        <expected>19</expected>
+        <actual>0</actual>
+        org.opentest4j.AssertionFailedError: La lista retornada  no tiene la cantidad de elementos esperados ==&gt; expected: &lt;19&gt; but was: &lt;0&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testGetCopiaEnteros(TestSandboxListas.java:79)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testGetCopiaEnterosComoArreglos" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.001" displayname="testGetCopiaEnterosComoArreglos()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testGetCopiaEnterosComoArreglos()]">
+      <failure>
+        <expected>19</expected>
+        <actual>0</actual>
+        org.opentest4j.AssertionFailedError: El arreglo retornado no tiene la cantidad de elementos esperados ==&gt; expected: &lt;19&gt; but was: &lt;0&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testGetCopiaEnterosComoArreglos(TestSandboxListas.java:127)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testEliminarEnteroDuplicado" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.0" displayname="testEliminarEnteroDuplicado()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testEliminarEnteroDuplicado()]">
+      <failure>
+        <expected>19</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La cantidad inicial de enteros no es correcta ==&gt; expected: &lt;19&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testEliminarEnteroDuplicado(TestSandboxListas.java:205)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testGenerarEnterosDistribucion" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.0" displayname="testGenerarEnterosDistribucion()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testGenerarEnterosDistribucion()]">
+      <failure>org.opentest4j.AssertionFailedError: Los valores no están bien distribuidos
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testGenerarEnterosDistribucion(TestSandboxListas.java:659)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+</failure>
+    </testcase>
+    <testcase name="testContarCadenaVacio" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.001" displayname="testContarCadenaVacio()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testContarCadenaVacio()]">
+      <failure>
+        <expected>0</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: No contó correctamente las cadenas ==&gt; expected: &lt;0&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testContarCadenaVacio(TestSandboxListas.java:505)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testInsertarEnteroInicio" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.001" displayname="testInsertarEnteroInicio()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testInsertarEnteroInicio()]">
+      <failure>
+        <expected>20</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La cantidad de enteros no aumentó correctamente ==&gt; expected: &lt;20&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testInsertarEnteroInicio(TestSandboxListas.java:308)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testGetCantidadEnteros" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.0" displayname="testGetCantidadEnteros()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testGetCantidadEnteros()]">
+      <failure>
+        <expected>19</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La cantidad inicial de enteros no es correcta ==&gt; expected: &lt;19&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testGetCantidadEnteros(TestSandboxListas.java:63)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testOrganizarEnteros" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.001" displayname="testOrganizarEnteros()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testOrganizarEnteros()]"/>
+    <testcase name="testGenerarEnterosBasico" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.0" displayname="testGenerarEnterosBasico()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testGenerarEnterosBasico()]">
+      <failure>
+        <expected>100</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La cantidad de elementos no es correcta ==&gt; expected: &lt;100&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testGenerarEnterosBasico(TestSandboxListas.java:602)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testEliminarEnteroUnico" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.001" displayname="testEliminarEnteroUnico()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testEliminarEnteroUnico()]">
+      <failure>
+        <expected>19</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La cantidad inicial de enteros no es correcta ==&gt; expected: &lt;19&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testEliminarEnteroUnico(TestSandboxListas.java:197)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testEliminarEnteroVacio" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.0" displayname="testEliminarEnteroVacio()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testEliminarEnteroVacio()]">
+      <failure>
+        <expected>0</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La cantidad de enteros debería seguir siendo la misma ==&gt; expected: &lt;0&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testEliminarEnteroVacio(TestSandboxListas.java:222)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testGetCopiaCadenasVacia" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.001" displayname="testGetCopiaCadenasVacia()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testGetCopiaCadenasVacia()]"/>
+    <testcase name="testGenerarEnterosGrande" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.0" displayname="testGenerarEnterosGrande()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testGenerarEnterosGrande()]">
+      <failure>
+        <expected>10000</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La cantidad de elementos no es correcta ==&gt; expected: &lt;10000&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testGenerarEnterosGrande(TestSandboxListas.java:623)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testEliminarEnteroPorPosicionCorrectos" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.001" displayname="testEliminarEnteroPorPosicionCorrectos()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testEliminarEnteroPorPosicionCorrectos()]">
+      <failure>
+        <expected>19</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La cantidad inicial de enteros no es correcta ==&gt; expected: &lt;19&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testEliminarEnteroPorPosicionCorrectos(TestSandboxListas.java:259)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testReiniciarArregloEnterosVacio" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.0" displayname="testReiniciarArregloEnterosVacio()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testReiniciarArregloEnterosVacio()]">
+      <failure>
+        <expected>6</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La nueva cantidad de enteros no es la correcta ==&gt; expected: &lt;6&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testReiniciarArregloEnterosVacio(TestSandboxListas.java:420)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testEliminarCadenaDuplicado" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.0" displayname="testEliminarCadenaDuplicado()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testEliminarCadenaDuplicado()]">
+      <failure>
+        <expected>9</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La cantidad inicial de cadenas no es correcta ==&gt; expected: &lt;9&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testEliminarCadenaDuplicado(TestSandboxListas.java:236)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testEliminarEnteroInexistente" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.001" displayname="testEliminarEnteroInexistente()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testEliminarEnteroInexistente()]">
+      <failure>
+        <expected>19</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La cantidad inicial de enteros no es correcta ==&gt; expected: &lt;19&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testEliminarEnteroInexistente(TestSandboxListas.java:213)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testContarEnterosRepetidosSinRepetidos" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.003" displayname="testContarEnterosRepetidosSinRepetidos()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testContarEnterosRepetidosSinRepetidos()]">
+      <failure>
+        <expected>0</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: No contó correctamente la cantidad de enteros que están repetidos ==&gt; expected: &lt;0&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testContarEnterosRepetidosSinRepetidos(TestSandboxListas.java:566)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testContarCadena" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.001" displayname="testContarCadena()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testContarCadena()]">
+      <failure>
+        <expected>1</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: No contó correctamente las cadenas ==&gt; expected: &lt;1&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testContarCadena(TestSandboxListas.java:493)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testContarEntero" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.0" displayname="testContarEntero()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testContarEntero()]">
+      <failure>
+        <expected>1</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: No contó correctamente el entero ==&gt; expected: &lt;1&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testContarEntero(TestSandboxListas.java:472)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testEliminarCadenaUnico" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.0" displayname="testEliminarCadenaUnico()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testEliminarCadenaUnico()]">
+      <failure>
+        <expected>9</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La cantidad inicial de cadenas no es correcta ==&gt; expected: &lt;9&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testEliminarCadenaUnico(TestSandboxListas.java:228)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testVolverPositivosVacio" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.0" displayname="testVolverPositivosVacio()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testVolverPositivosVacio()]"/>
+    <testcase name="testEliminarEnteroPorPosicionIncorrectos" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.001" displayname="testEliminarEnteroPorPosicionIncorrectos()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testEliminarEnteroPorPosicionIncorrectos()]">
+      <failure>
+        <expected>19</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La cantidad inicial de enteros no es correcta ==&gt; expected: &lt;19&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testEliminarEnteroPorPosicionIncorrectos(TestSandboxListas.java:292)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testContarEnterosRepetidosVacio" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.0" displayname="testContarEnterosRepetidosVacio()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testContarEnterosRepetidosVacio()]">
+      <failure>
+        <expected>0</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: No contó correctamente la cantidad de enteros que están repetidos ==&gt; expected: &lt;0&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testContarEnterosRepetidosVacio(TestSandboxListas.java:572)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testReiniciarArregloEnteros" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.0" displayname="testReiniciarArregloEnteros()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testReiniciarArregloEnteros()]">
+      <failure>
+        <expected>6</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La nueva cantidad de enteros no es la correcta ==&gt; expected: &lt;6&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testReiniciarArregloEnteros(TestSandboxListas.java:403)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testInsertarEnteroFinal" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.001" displayname="testInsertarEnteroFinal()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testInsertarEnteroFinal()]">
+      <failure>
+        <expected>20</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La cantidad de enteros no aumentó correctamente ==&gt; expected: &lt;20&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testInsertarEnteroFinal(TestSandboxListas.java:335)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testInsertarEnteroMitad" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.0" displayname="testInsertarEnteroMitad()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testInsertarEnteroMitad()]">
+      <failure>
+        <expected>20</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La cantidad de enteros no aumentó correctamente ==&gt; expected: &lt;20&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testInsertarEnteroMitad(TestSandboxListas.java:383)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testCompararArregloEnterosIguales" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.001" displayname="testCompararArregloEnterosIguales()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testCompararArregloEnterosIguales()]">
+      <failure>
+        <expected>true</expected>
+        <actual>false</actual>
+        org.opentest4j.AssertionFailedError: No comparó correctamente los arreglos cuando eran iguales ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testCompararArregloEnterosIguales(TestSandboxListas.java:578)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testEliminarCadenaInexistente" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.001" displayname="testEliminarCadenaInexistente()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testEliminarCadenaInexistente()]">
+      <failure>
+        <expected>9</expected>
+        <actual>-1</actual>
+        org.opentest4j.AssertionFailedError: La cantidad inicial de cadenas no es correcta ==&gt; expected: &lt;9&gt; but was: &lt;-1&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testEliminarCadenaInexistente(TestSandboxListas.java:244)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testGetCopiaCadenas" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.0" displayname="testGetCopiaCadenas()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testGetCopiaCadenas()]">
+      <failure>
+        <expected>9</expected>
+        <actual>0</actual>
+        org.opentest4j.AssertionFailedError: La lista retornada no tiene la cantidad de elementos esperados ==&gt; expected: &lt;9&gt; but was: &lt;0&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
+	at uniandes.dpoo.estructuras.tests.TestSandboxListas.testGetCopiaCadenas(TestSandboxListas.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testCompararArregloEnterosVacio" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.0" displayname="testCompararArregloEnterosVacio()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testCompararArregloEnterosVacio()]"/>
+    <testcase name="testOrganizarCadenasVacio" classname="uniandes.dpoo.estructuras.tests.TestSandboxListas" time="0.0" displayname="testOrganizarCadenasVacio()" uniqueid="[engine:junit-jupiter]/[class:uniandes.dpoo.estructuras.tests.TestSandboxListas]/[method:testOrganizarCadenasVacio()]"/>
+  </testsuite>
+</testrun>
