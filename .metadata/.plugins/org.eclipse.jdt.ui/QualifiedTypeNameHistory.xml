@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="uniandes.dpoo.aerolinea.modelo.Vuelo"/>
+    <fullyQualifiedTypeName name="uniandes.dpoo.aerolinea.modelo.cliente.Cliente"/>
+    <fullyQualifiedTypeName name="uniandes.dpoo.aerolinea.modelo.Aeropuerto"/>
+    <fullyQualifiedTypeName name="uniandes.dpoo.aerolinea.modelo.cliente.ClienteCorporativo"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="org.json.JSONObject"/>
+    <fullyQualifiedTypeName name="uniandes.dpoo.aerolinea.persistencia.PersistenciaAerolineaJson"/>
+    <fullyQualifiedTypeName name="uniandes.dpoo.aerolinea.persistencia.PersistenciaAerolineaPlaintext"/>
+    <fullyQualifiedTypeName name="uniandes.dpoo.aerolinea.persistencia.TipoInvalidoException"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="uniandes.dpoo.aerolinea.persistencia.IPersistenciaAerolinea"/>
+    <fullyQualifiedTypeName name="uniandes.dpoo.aerolinea.persistencia.CentralPersistencia"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="uniandes.dpoo.aerolinea.modelo.tarifas.CalculadoraTarifas"/>
+    <fullyQualifiedTypeName name="java.time.Month"/>
+    <fullyQualifiedTypeName name="uniandes.dpoo.aerolinea.modelo.tarifas.CalculadoraTarifasTemporadaAlta"/>
+    <fullyQualifiedTypeName name="uniandes.dpoo.aerolinea.modelo.tarifas.CalculadoraTarifasTemporadaBaja"/>
+    <fullyQualifiedTypeName name="uniandes.dpoo.aerolinea.modelo.Avion"/>
+    <fullyQualifiedTypeName name="uniandes.dpoo.aerolinea.exceptions.InformacionInconsistenteException"/>
+    <fullyQualifiedTypeName name="uniandes.dpoo.hamburguesas.excepciones.HamburguesaException"/>
 </qualifiedTypeNameHistroy>
